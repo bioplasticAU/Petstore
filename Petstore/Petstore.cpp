@@ -37,8 +37,8 @@ private:
 int main()
 {
     Pet ruffus; //the constructor Pet() is called
-    ruffus.name = "RUFFUS";
-    ruffus.colour = "BLACK";
+    //ruffus.name = "RUFFUS";
+    //ruffus.colour = "BLACK";
     
     Pet claude("CLAUDE", "WHITE");
     claude.print();
